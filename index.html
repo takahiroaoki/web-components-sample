@@ -47,6 +47,15 @@
         <greeting-card name="Web Components" message="Welcome to modern web development!"></greeting-card>
         <my-counter></my-counter>
         <todo-list></todo-list>
+        
+        <!-- 親子関係の例 -->
+        <user-profile>
+          <profile-header slot="header" name="田中太郎" role="Web Developer" avatar="👨‍💻" status="inactive"></profile-header>
+          <profile-bio slot="content">
+            <p>Pure Web Componentsの勉強中です。Shadow DOMとスロットを活用した、モダンなコンポーネント設計に興味があります。</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #999;">💡 アバターをクリックしてステータスを変更してみてください！</p>
+          </profile-bio>
+        </user-profile>
       </div>
     </main>
     <script type="module" src="/src/main.ts"></script>
