@@ -1,0 +1,11 @@
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ..:/workspaces/web-components-sample
+        working_dir: /workspaces/web-components-sample
+        ports:
+            - 8080:8080
+        tty: true
