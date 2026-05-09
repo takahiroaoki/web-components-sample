@@ -1,0 +1,11 @@
+{
+    "name": "web-components-sample",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/web-components-sample",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-vscode.vscode-typescript-next"]
+        }
+    }
+}
